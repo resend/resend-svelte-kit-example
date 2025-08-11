@@ -1,4 +1,4 @@
-# Resend with Example
+# Resend with SvelteKit
 
 This example shows how to use Resend with [SvelteKit](https://svelte.dev/docs/kit).
 
