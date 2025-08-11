@@ -1,6 +1,6 @@
 # Resend with Example
 
-This example shows how to use Resend with [Example](https://example.com).
+This example shows how to use Resend with [SvelteKit](https://svelte.dev/docs/kit).
 
 ## Prerequisites
 
