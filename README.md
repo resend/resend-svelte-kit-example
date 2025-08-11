@@ -11,18 +11,28 @@ To get the most out of this guide, you’ll need to:
 
 ## Instructions
 
-1. Replace `re_123456789` on `example.ts` with your API key.
+1. Define environment variables in `.env`
+
+```
+cp .env.example .env
+```
 
 2. Install dependencies:
 
   ```sh
-TBD
+pnpm install
   ```
 
 3. Execute the following command:
 
   ```sh
-TBD
+pnpm dev
+  ```
+
+4. Make a curl request:
+
+  ```sh
+curl -X POST http://localhost:5173/send
   ```
 
 ## License
