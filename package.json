@@ -11,7 +11,6 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "latest",
 		"@sveltejs/adapter-auto": "latest",
 		"@sveltejs/kit": "latest",
 		"@sveltejs/vite-plugin-svelte": "latest",
@@ -20,12 +19,6 @@
 		"typescript": "latest",
 		"vite": "latest"
 	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
-	},
-	"packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748",
 	"dependencies": {
 		"resend": "latest"
 	}

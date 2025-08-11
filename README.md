@@ -17,19 +17,23 @@ To get the most out of this guide, you’ll need to:
 cp .env.example .env
 ```
 
-2. Install dependencies:
+2. Update the `RESEND_API_KEY` in `.env` with your API key.
+
+You can create an API key in the [Resend dashboard](https://resend.com/api-keys).
+
+3. Install dependencies:
 
   ```sh
-pnpm install
+npm install
   ```
 
-3. Execute the following command:
+4. Execute the following command:
 
   ```sh
-pnpm dev
+npm dev
   ```
 
-4. Make a curl request:
+5. Make a curl request:
 
   ```sh
 curl -X POST http://localhost:5173/send
