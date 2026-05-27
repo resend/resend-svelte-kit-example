@@ -32,13 +32,13 @@ You can create an API key in the [Resend dashboard](https://resend.com/api-keys)
 3. Install dependencies:
 
   ```sh
-npm install
+pnpm install
   ```
 
 4. Execute the following command:
 
   ```sh
-npm dev
+pnpm dev
   ```
 
 5. Make a curl request:

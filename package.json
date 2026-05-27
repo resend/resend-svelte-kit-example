@@ -2,6 +2,7 @@
 	"name": "resend-svelte-kit-example",
 	"private": true,
 	"type": "module",
+	"packageManager": "pnpm@11.3.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
